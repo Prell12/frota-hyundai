@@ -1,0 +1,44 @@
+body{
+    background-image: url('/arquivos/fundo.webp'); 
+    background-size: cover; 
+    background-position: center; 
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+.container {
+    padding: 30px;
+    border: 1px solid rgb(0, 40, 122);
+    margin-right: 100px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.container h1 {
+    height: 30px;
+    width: auto;
+    text-align: center;
+}
+
+.container h2 {
+    font-size: 22px;
+    display: flex;
+}
+
+.container p {
+    width: 100%;
+    text-align: left;
+    font-stretch: 80%;
+    font-size: large;
+}
+
+.lista1 {
+    margin-bottom: 40px; 
+}
+
+
+ul {
+    margin-top: 100px;
+}

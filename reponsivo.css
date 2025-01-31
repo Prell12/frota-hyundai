@@ -1,0 +1,149 @@
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+        background-color: #e0f7fa; /* Azul claro */
+    }
+
+    .container {
+        padding: 10px;
+        max-width: 599px;
+        margin: 0 auto;
+        margin-left: 85px;
+        margin-right: 85px;
+    }
+
+    .menu {
+        flex-direction: column;
+        text-align: center;
+    }
+    .overlay-img {
+        max-width: 50%; /* Aumenta a largura máxima em telas menores */
+    }
+    .overlay-img {
+        max-width: 50%;
+        right: 5px;
+    }
+    .img {
+        width: 70%;
+        height: auto;
+    }
+
+}
+
+/* Estilo para telas médias (tablets - entre 601px e 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+        background-color: #ffe0b2; /* Laranja claro */
+    }
+
+    .container {
+        max-width: 1023px;
+        padding: 20px;
+        margin: 0 auto;
+        margin-left: 95px;
+        margin-right: 95px;
+    }
+
+    .overlay-img {
+        max-width: 40%; /* Aumenta a largura máxima */
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-around;
+    }
+    .img {
+        width: 70%;
+        height: auto;
+    }
+}
+
+/* Estilo para telas maiores (notebooks - entre 1025px e 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    body {
+        font-size: 18px;
+        background-color: #c8e6c9; /* Verde claro */
+    }
+
+    .container {
+        max-width: 1439px;
+        margin: 0 auto;
+        padding: 30px;
+        margin-left: 105px;
+        margin-right: 105px;
+    }
+
+    .overlay-img {
+        max-width: 30%; /* Mantém a largura máxima */
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+    }
+    .img {
+        width: 70%;
+        height: auto;
+    }
+}
+
+/* Estilo para telas muito grandes (desktops - acima de 1440px) */
+@media (min-width: 1441px) {
+    body {
+        font-size: 20px;
+        background-color: #d1c4e9; /* Roxo claro */
+    }
+
+    .container {
+        max-width: 1919px;
+        margin: 0 auto;
+        padding: 30px;
+        margin-left: 115px;
+        margin-right: 115px;
+    }
+
+    .overlay-img {
+        max-width: 25%; /* Reduz a largura máxima */
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .img {
+        width: 70%;
+        height: auto;
+    }
+}
+
+@media (min-width: 1442px) and (max-width: 1920px) {
+    body {
+        font-size: 20px;
+        background-color: #d1c4e9; /* Roxo claro */
+    }
+
+    .container {
+        max-width: auto;
+        margin: 0 auto;
+        padding: 30px;
+        border: 1px solid rgb(0, 40, 122);
+        margin-left: 125px;
+        margin-right: 125px;
+        border-radius: 10px;
+        background-color: #fff;
+        margin-bottom: 20px;
+        height: auto;
+    }
+    .overlay-img {
+        max-width: 20%; /* Reduz a largura máxima para telas muito grandes */
+    }
+    .menu {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .img {
+        width: 70%;
+        height: auto;
+    }
+}

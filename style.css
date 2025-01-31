@@ -1,0 +1,85 @@
+body{
+    background-image: url('/arquivos/fundo.webp'); 
+    background-size: cover; 
+    background-position: center; 
+    width: auto;
+    height: auto;
+}
+
+
+.container {
+    padding: 30px;
+    border: 1px solid rgb(0, 40, 122);
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.container h1 {
+    height: 30px;
+    width: auto;
+    text-align: center;
+}
+
+.container h2 {
+    font-size: 22px;
+}
+
+.container p {
+    width: 100%;
+    display: flex;
+    text-align: left;
+    font-stretch: 80%;
+    font-size: large;
+}
+
+.file-list {
+    list-style: none;
+    padding: 0;
+}
+
+.file-list li {
+    background-color: white;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.file-list li a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.file-list li a:hover {
+    color: #45a049;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+  
+a:hover {
+    opacity: 0.7;
+}
+  
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #45a049;
+    height: 8vh;
+}
+  
+main {
+    background-size: cover;
+    height: 92vh;
+}
+  

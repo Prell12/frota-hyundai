@@ -1,0 +1,83 @@
+body{
+    background-image: url('/arquivos/fundo.webp'); 
+    background-size: cover; 
+    background-position: center; 
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+.container {
+    padding: 30px;
+    border: 1px solid rgb(0, 40, 122);
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.container h1 {
+    height: 100px;
+    width: auto;
+    text-align: center;
+}
+
+.container h2 {
+    font-size: 22px;
+}
+
+.container p {
+    width: 100%;
+    display: flex;
+    text-align: left;
+    font-stretch: 80%;
+    font-size: large;
+}
+
+.file-list {
+    list-style: none;
+    padding: 0;
+}
+
+.file-list li {
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    
+}
+
+.file-list li a {
+    text-decoration: none;
+    color: rgb(0, 40, 122);
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.file-list li a:hover {
+    color: rgb(0, 40, 122);
+}
+
+li {
+    text-align: left;
+    padding: 10px;
+}
+
+.arquivos h2 {
+    margin-top: 50px;
+}
+
+.arquivos p {
+    margin-top: 35px;
+}
+
+.arquivos .titulo {
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.arquivos .information{
+    margin-left: 35px;
+    font-size: 15px;
+}

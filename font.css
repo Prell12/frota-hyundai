@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Hyundai Sans';
+    src: local('Hyundai Sans Head Office Regular'), local('Hyundai-Sans-Head-Office-Regular'),
+        url('HyundaiSansHeadOffice-Regular.woff2') format('woff2'),
+        url('HyundaiSansHeadOffice-Regular.woff') format('woff'),
+        url('HyundaiSansHeadOffice-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
